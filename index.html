@@ -1,11 +1,77 @@
 <!doctype html>
 <html lang="pt-BR">
   <head>
-    <meta charset="UTF-8">
-    <title>Wave Pro</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Wave Pro: música, biblioteca e suas playlists em um só lugar.">
+    <meta name="theme-color" content="#07111f">
+    <title>Wave Pro — sua música, no seu momento</title>
+    <link rel="stylesheet" href="assets/site.css">
   </head>
   <body>
-    <h1>Wave Pro</h1>
-    <p>Site em preparação.</p>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Wave Pro, início">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span>Wave <b>Pro</b></span>
+      </a>
+      <nav aria-label="Navegação principal">
+        <a href="hoje.html">Sintonia do dia</a>
+        <a href="privacy.html">Privacidade</a>
+        <a class="nav-cta" href="https://play.google.com/store/apps/details?id=com.wavepro.app" target="_blank" rel="noopener">Baixar o app</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">WAVE PRO MUSIC</p>
+          <h1>A música acompanha o seu momento.</h1>
+          <p class="lead">Descubra, organize e volte para as faixas que fazem parte da sua rotina — em uma experiência criada para ser sua.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="https://play.google.com/store/apps/details?id=com.wavepro.app" target="_blank" rel="noopener">Conhecer o Wave Pro</a>
+            <a class="button button-quiet" href="hoje.html">Ver a sintonia de hoje</a>
+          </div>
+          <p class="fine-print">Disponível para Android na Google Play.</p>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="orb orb-one"></div><div class="orb orb-two"></div>
+          <div class="player-preview">
+            <div class="preview-top"><span class="mini-mark"></span><span>TOCANDO AGORA</span><span class="preview-dots">•••</span></div>
+            <div class="preview-cover"><span>W</span></div>
+            <div class="preview-line strong"></div><div class="preview-line"></div>
+            <div class="preview-progress"><span></span></div>
+            <div class="preview-controls"><span>↶</span><b>▶</b><span>↷</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section feature-section" aria-labelledby="experience-title">
+        <div class="section-heading">
+          <p class="eyebrow">UMA EXPERIÊNCIA WAVE</p>
+          <h2 id="experience-title">Menos ruído. Mais conexão com a sua música.</h2>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card"><span class="feature-number">01</span><h3>Sua biblioteca</h3><p>Favoritos, playlists e histórico ficam organizados para você encontrar o que quer ouvir.</p></article>
+          <article class="feature-card"><span class="feature-number">02</span><h3>Sua fila</h3><p>Monte a sequência, avance, volte e mantenha a sessão musical sob seu controle.</p></article>
+          <article class="feature-card"><span class="feature-number">03</span><h3>Seu momento</h3><p>O Wave Pro reúne a música que você escolhe com uma interface simples e pessoal.</p></article>
+        </div>
+      </section>
+
+      <section class="daily-banner" aria-labelledby="daily-title">
+        <div>
+          <p class="eyebrow">SINTONIA DO DIA</p>
+          <h2 id="daily-title">Uma mesma mensagem para toda a comunidade Wave.</h2>
+          <p>Reserve um instante para ouvir, respirar e compartilhar algo bom.</p>
+        </div>
+        <a class="button button-light" href="hoje.html">Abrir a mensagem de hoje <span aria-hidden="true">→</span></a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-brand"><span class="brand-mark small" aria-hidden="true"><i></i><i></i><i></i></span> Wave <b>Pro</b></div>
+      <div class="footer-links"><a href="privacy.html">Política de Privacidade</a><a href="terms.html">Termos de Uso</a><a href="mailto:qualidade.rjl@gmail.com">Contato</a></div>
+      <p>© <span data-current-year></span> Wave Pro.</p>
+    </footer>
+    <script src="assets/site.js"></script>
   </body>
 </html>
