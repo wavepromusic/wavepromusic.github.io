@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.wavepro.app",
+      "sha256_cert_fingerprints": [
+        "82:FE:07:9B:0E:D7:B7:A7:D2:AB:A5:F7:76:68:AF:32:29:67:57:B2:B9:FF:ED:11:D6:C5:0F:98:04:04:B9:A9"
+      ]
+    }
+  }
+]
