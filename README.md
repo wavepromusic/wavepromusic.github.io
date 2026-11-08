@@ -12,6 +12,6 @@ Este repositório publica o site público do Wave Pro em `https://wavepromusic.g
 
 ## Android App Links
 
-`/.well-known/assetlinks.json` ainda não é publicado. Ele exige a impressão digital SHA-256 exata do certificado de assinatura distribuído pela Google Play para `com.wavepro.app`; nunca use o certificado de depuração nesse arquivo.
+`/.well-known/assetlinks.json` foi publicado com a impressão digital SHA-256 do certificado de assinatura distribuído pela Google Play para `com.wavepro.app`. Em alterações futuras, nunca use o certificado de depuração nesse arquivo.
 
 O aplicativo deve reconhecer somente `wavepromusic.github.io` como endereço público de compartilhamento.
