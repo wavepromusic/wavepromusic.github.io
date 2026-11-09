@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" role="img" aria-label="Wave Pro">
+  <rect width="108" height="108" rx="28" fill="#0B1026"/>
+  <path fill="#22D3EE" d="M12 62C24 47 39 47 51 62c12 15 27 15 45-6v16C78 91 61 91 49 76 37 61 25 61 12 78Z"/>
+  <path fill="#8B5CF6" d="M18 40c14-15 32-15 46 0 10 11 20 12 32 4v12c-14 11-29 10-41-4-11-13-23-13-37 2Z"/>
+  <path fill="#F8FAFC" d="M46 32v44l32-22Z"/>
+  <path fill="#0B1026" fill-opacity=".28" d="M52 42v24l17-12Z"/>
+</svg>
