@@ -9,6 +9,11 @@ Este repositório publica o site público do Wave Pro em `https://wavepromusic.g
 - `/hoje.html` — Sintonia do Dia, igual para todos os visitantes na data de São Paulo.
 - `/privacy.html` e `/terms.html` — documentos públicos do aplicativo.
 - `/app-ads.txt` — vendedores autorizados do inventário de anúncios.
+- `/resignificar/catalog.json` — catálogo editorial somente-leitura usado pelo Wave para os conteúdos do canal Ressignificar Cada Dia.
+
+## Catálogo Ressignificar
+
+O workflow **Atualizar catálogo Ressignificar** consulta a publicação Atom pública do canal uma vez por hora e preserva os itens já catalogados em `/resignificar/catalog.json`. Não usa chave, YouTube Data API, scraping de páginas, nem segredos no aplicativo. Como o canal ainda não possui vídeos, o catálogo começa vazio; cada publicação nova passa a entrar na próxima sincronização. O workflow também pode ser iniciado manualmente na aba **Actions** após uma publicação.
 
 ## Android App Links
 

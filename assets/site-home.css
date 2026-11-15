@@ -1,0 +1,21 @@
+/* Organização visual complementar para as páginas públicas Wave Pro. */
+.skip-link { position:fixed; z-index:20; top:12px; left:12px; padding:10px 14px; border-radius:10px; color:#07111f; background:#fff; transform:translateY(-180%); transition:transform .18s ease; }
+.skip-link:focus { transform:translateY(0); }
+.hero-points { display:grid; gap:8px; margin:25px 0 0; padding:0; list-style:none; color:#bfcbe3; font-size:.93rem; }
+.hero-points li { display:flex; align-items:center; gap:9px; }
+.hero-points li::before { width:7px; height:7px; border-radius:999px; background:#22d3ee; box-shadow:0 0 14px rgba(34,211,238,.72); content:""; }
+.experience-section .section-heading { max-width:690px; }
+.experience-section .section-heading > p:not(.eyebrow) { max-width:620px; color:var(--muted); }
+.share-highlight { display:grid; grid-template-columns:auto minmax(0,1fr) auto; gap:24px; align-items:center; margin:0 0 52px; padding:clamp(24px,4vw,38px); border:1px solid rgba(83,105,164,.18); border-radius:26px; background:linear-gradient(135deg,#101a37,#151339); box-shadow:var(--shadow); color:#f6f8ff; }
+.share-highlight h2 { max-width:580px; margin:4px 0 9px; font-size:clamp(1.55rem,3vw,2.35rem); letter-spacing:-.04em; }
+.share-highlight p:not(.eyebrow) { max-width:620px; margin:0; color:#bcc6dd; }
+.share-highlight-mark { display:grid; width:62px; height:62px; place-items:center; border-radius:20px; background:rgba(34,211,238,.11); }
+.share-highlight-mark img { width:48px; height:48px; }
+.closing-cta { margin:0 0 66px; padding:clamp(32px,6vw,64px); text-align:center; border-radius:30px; background:radial-gradient(circle at 70% 15%,rgba(91,117,244,.48),transparent 28%),linear-gradient(135deg,#07111f,#142d53); color:#fff; box-shadow:var(--shadow); }
+.closing-cta h2 { max-width:640px; margin:8px auto 25px; font-size:clamp(2rem,4vw,3.25rem); letter-spacing:-.055em; }
+.track-page .share-card { position:relative; }
+.share-context { max-width:520px; margin:0 0 22px; color:#e3e9f9; font-size:1.02rem; }
+.track-page .share-note { max-width:510px; }
+.button:focus-visible, .site-header a:focus-visible, .site-footer a:focus-visible { outline:3px solid #22d3ee; outline-offset:4px; }
+@media (max-width:760px) { .hero-points { margin-top:22px; }.share-highlight { grid-template-columns:auto 1fr; gap:16px; }.share-highlight .button { grid-column:1 / -1; justify-self:start; }.closing-cta { margin-bottom:50px; }.track-page .share-context { margin-bottom:20px; } }
+@media (max-width:420px) { .share-highlight { padding:22px; }.share-highlight-mark { width:52px; height:52px; border-radius:17px; }.share-highlight-mark img { width:40px; height:40px; } }
